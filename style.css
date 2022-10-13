@@ -193,6 +193,14 @@ body{
         margin-top: 10px;
     }
 } 
+@media (max-width: 500px){
+    .header__headline{
+        font-size: 40px;
+    }
+    .header__text{
+        font-size: 18px;
+    }
+} 
 
 /* __________________________________________________________ */
 
@@ -203,6 +211,11 @@ body{
     margin-left: 10%;
     font-size: 40px;
     flex-wrap: wrap;
+}
+@media (max-width: 500px){
+    .headers{
+        font-size: 30px;
+    }
 }
 .projects {
     width: 100%;
