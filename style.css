@@ -186,6 +186,11 @@ body{
     color: #BCBCBC;
     font-size: 22px;
 }
+@media (max-width: 375px){
+    .body{
+        max-width: 375px;
+    }
+} 
 
 
 @media (max-width: 549px){
@@ -257,7 +262,7 @@ body{
     width: 200px;
     background-image: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
     border-radius: 2px;
-    margin: 2% auto;
+    margin: 0 auto;
 }
 
 .project__subtitle {
@@ -568,7 +573,7 @@ p{
 @media (max-width: 470px ){
 
     .footer{
-
+        width: 100%;
         height: 150px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
