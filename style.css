@@ -274,8 +274,8 @@ body{
 }
 
 .project__button{
-    width: 120px;
-    height: 35px;
+    width: 140px;
+    height: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -285,6 +285,7 @@ body{
     font-size: 20px;
     color: aliceblue;
     transition: 1s linear;
+    margin-top: 10px ;
 }
 .project__button:hover{
     background: #13ADC7;
