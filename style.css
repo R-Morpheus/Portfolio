@@ -291,6 +291,17 @@ body{
     background: #13ADC7;
 }
 
+@media (max-width: 500px){
+    .project__button{
+        width: 100px;
+        height: 28px;
+    }
+    .project__container{
+        width: 50vm;
+        height: 65vh;
+    }
+}
+
 /* _______________________________________________________________________ */
 
 .technologies {
@@ -582,15 +593,6 @@ p{
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         }
-        .myTelephone{
-            grid-area: 1 / 1 / 2 / 2; 
-        }
-        .myEmail{
-            grid-area: 2 / 1 / 3 / 2;
-        
-        }
-        .footer__links{
-            grid-area: 1 / 2 / 3 / 3;
-        }
+
 }
 
